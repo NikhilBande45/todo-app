@@ -6,10 +6,6 @@ import { useDispatch } from 'react-redux';
 const TodoItem = ({todo , index}) => {
     const dispatch = useDispatch();
     
-    // const handleDeleteTodo = () =>{
-    //     dispatch(deleteTodo(id))
-    // }
-
     return (
     <>
         <li className='flex flex-col items-center sm:flex-row  sm:items-center justify-between border-b-2 py-2 gap-4'>
